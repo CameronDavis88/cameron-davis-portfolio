@@ -25,6 +25,7 @@
 
 .social-icons {
     display: flex;
+    justify-content: space-between;
     // @include border (orange);
     @include flex (center, row);
     width: 100%;
@@ -37,17 +38,11 @@
 
     a {
         // @include border(green);
-        margin: 0 .7rem;
+        margin: 0 20rem;
         cursor: pointer;
     }
 }
-.each-icon{
-    display: flex;
-    margin-right: 15vw;
-    margin-left: 15vw;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .mobile {
     display: initial;
