@@ -6,12 +6,10 @@ const Contact = props => {
             <h3>Contact</h3>
             <section className='contact-items'>
                 <section className='contact-item'>
-                    <h5><MdEmail />Email</h5>
-                    <a href='mailto:cameron.s.davis99@gmail.com'>cameron.s.davis99@gmail.com</a>
+                    <a href='mailto:cameron.s.davis99@gmail.com'><h5><MdEmail />Email</h5>cameron.s.davis99@gmail.com</a>
                 </section>
                 <section className='contact-item'>
-                    <h5><MdPhoneIphone />Phone</h5>
-                    <a href='tel:+13607736405'>360.773.6405</a>
+                    <a href='tel:+13607736405'><h5><MdPhoneIphone />Phone</h5>360.773.6405</a>
                 </section>
                 <section className='contact-item'>
                     <h5><MdLocationCity />Location</h5>
