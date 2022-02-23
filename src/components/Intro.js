@@ -6,7 +6,7 @@ const Intro = props => {
     return (
         <section className='intro-container'>
             <h1>Cameron Davis</h1>
-             change color scheme too
+             change color scheme and add a little about section 
             {/* maybe have an about section with little thing about me -- or maybe do that later and first load it without that */}
             <img src={ profilePic } alt='profile picture' className='profile-pic' height={'300vh'}  />
             <section className='social-icons'>
