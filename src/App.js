@@ -10,8 +10,8 @@ function App() {
   return (
     <section className="app-container">
     {/* <Header /> */}
-    <Intro />
     <Contact />
+    <Intro />
     <Projects />
     <Experience />
     {/* <Contact /> */}

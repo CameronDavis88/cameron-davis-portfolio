@@ -1,12 +1,14 @@
 import profilePic from '../assets/img/source/profile-pic.jpg';
-import { MdKeyboardArrowDown } from 'react-icons/md';
+// import { MdKeyboardArrowDown } from 'react-icons/md';
 import { FaGithub, FaLinkedin, FaRegFileWord, FaFileWord } from 'react-icons/fa';
 
 const Intro = props => {
     return (
         <section className='intro-container'>
+            <div className='name-title' >
             <h1>Cameron Davis</h1>
             <h4>Software Engineer / Web Developer</h4>
+            </div>
             <img src={ profilePic } alt='profile picture' className='profile-pic' height={'300vh'}  />
             <section className='social-icons'>
                 <div className='each-icon' >
@@ -39,7 +41,7 @@ const Intro = props => {
                 <h6>My LinkedIn</h6>
                 </div>
             </section> */}
-            <MdKeyboardArrowDown className='section-scroll-down' />
+            {/* <MdKeyboardArrowDown className='section-scroll-down' /> */}
         </section>
     );
 };

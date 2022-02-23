@@ -28,7 +28,7 @@ const Skills = props => {
 
     return (
         <section className="skills-container">
-            <h3>Skills</h3>
+            <h3>Programming Skills</h3>
             <section className='skills-map'>
                 { skills.map((e, i) => (
                     <Skill

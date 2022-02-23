@@ -6,14 +6,14 @@
           box-sizing: border-box;
 }
 
-.profile-pic{
-  width: 10vw;
-}
+/* .profile-pic{
+  width: 20vw;
+} */
 
-header {
+/* header {
   position: fixed;
   display: none;
-}
+} */
 
 .intro-container {
   height: 100vh;
@@ -42,6 +42,9 @@ header {
 .intro-container img {
   width: auto
 }
+.profile-pic{
+height: 50%;
+}
 
 .social-icons {
   display: -webkit-box;
@@ -68,6 +71,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 1.5vh;
 }
 
 
@@ -133,6 +137,7 @@ header {
   }
   .intro-container img {
     max-width: 1000px;
+   
   }
 }
 
@@ -180,6 +185,10 @@ header {
   }
 }
 
+h4{
+  word-wrap: normal;
+}
+
 .projects-container {
   width: 100vw;
   padding: 2rem 0;
@@ -198,6 +207,13 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.name-title{
+  display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 }
 
 .project-items-container {
@@ -379,12 +395,14 @@ header {
 }
 
 .contact-container {
+  
   width: 100vw;
-  padding: 2rem 0;
+  /* padding: 2rem 0; */
+  
   /* background: -webkit-gradient(linear, left top, left bottom, from(#05668D), to(#028090)); */
   /* background:#555358; */
   background: linear-gradient(to left, #7B7263, #5F6062 );
-  display: -webkit-box;
+  /* display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
@@ -396,7 +414,12 @@ header {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column;
+          flex-direction: column; */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        
+         
 }
 
 .contact-items {
@@ -433,9 +456,19 @@ header {
             flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+
   }
   .contact-item {
+    display: flex;
+    box-sizing: border-box;
     margin: 1.2rem 3rem;
+    flex-direction: row;
+    /* width: 30%;
+    height: 30%; */
+
+  }
+  .contact-container{
+    height: fit-content;
   }
 }
 

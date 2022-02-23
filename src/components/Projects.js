@@ -6,7 +6,7 @@ import studyPrev from '../assets/img/your-study-prev.png';
 const Projects = props => {
     return (
         <section className='projects-container'>
-            <h3>Projects</h3>
+            <h3>Personal Demo Projects</h3>
             <section className='project-items-container'>
                 <section className='project-item'>
                     <img src={studyPrev}  alt='your-study logo' className='project-cover' />
