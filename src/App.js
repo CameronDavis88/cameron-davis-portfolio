@@ -11,9 +11,10 @@ function App() {
     <section className="app-container">
     {/* <Header /> */}
     <Intro />
+    <Contact />
     <Projects />
     <Experience />
-    <Contact />
+    {/* <Contact /> */}
     {/* <Footer /> */}
   </section>
   );
