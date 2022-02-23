@@ -1,7 +1,7 @@
 .projects-container {
     width: 100vw;
     padding: 2rem 0;
-    background: linear-gradient(to right, $primary-color, $secondary-color);
+    background: linear-gradient(to right, #C9DCB3, #5F6062);
     @include flex(space-evenly, column);
 }
 

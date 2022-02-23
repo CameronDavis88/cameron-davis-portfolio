@@ -3,7 +3,7 @@ import Intro from './components/Intro';
 import Projects from './components/Projects';
 import Experience from './components/Skills';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 import './styles/App.css';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
     <Projects />
     <Experience />
     <Contact />
-    <Footer />
+    {/* <Footer /> */}
   </section>
   );
 };
