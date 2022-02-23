@@ -44,6 +44,7 @@
 }
 .profile-pic{
 height: 50%;
+margin-top: 1.5vh;
 }
 
 .social-icons {
@@ -61,7 +62,7 @@ height: 50%;
       -ms-flex-direction: row;
           flex-direction: row;
   width: 50%;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .each-icon{
@@ -322,8 +323,9 @@ flex-direction: column;
 .skills-container {
   width: 100vw;
   padding: 2rem 0;
-  background:#555358;
+  /* background:#555358; */
   /* background: linear-gradient(to left, #C9DCB3, #5F6062 ); */
+  background: linear-gradient(to left, #7B7263, #5F6062);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

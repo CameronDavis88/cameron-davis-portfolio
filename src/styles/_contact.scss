@@ -1,5 +1,10 @@
 .contact-container {
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
     // padding: 2rem 0;
     background: linear-gradient(to bottom, $primary-color, $secondary-color);
     @include flex(flex-start, column); 
@@ -8,7 +13,7 @@
 .contact-items {
     // @include border(red);
     @include flex(center, column);
-    width: 80%;
+    width: 70%;
     // height: 80%;
 }
 

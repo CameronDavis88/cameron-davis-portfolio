@@ -3,7 +3,10 @@ import { MdEmail, MdPhoneIphone, MdLocationCity } from 'react-icons/md';
 const Contact = props => {
     return (
         <section className="contact-container">
-            {/* <h3>Contact</h3> */}
+            {/* <div>
+            <h3>Contact:</h3>
+            </div>
+             */}
             <section className='contact-items'>
                 <section className='contact-item'>
                     <a href='mailto:cameron.s.davis99@gmail.com'><h5><MdEmail />Email</h5>cameron.s.davis99@gmail.com</a>
