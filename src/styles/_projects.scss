@@ -6,21 +6,17 @@
 }
 
 .project-items-container {
-    // @include border(red);
     @include flex(space-around, column);
     width: 90%;
 }
 
 .project-item {
-    // @include border(orange);
     width: 65%;
     margin: 1.5rem 0;
     border-radius: 25px;
     position: relative;
     overflow: hidden;
-    
     cursor: pointer;
-
     img {
         width: 100%;
     }
@@ -42,7 +38,6 @@
             top: 0;
             opacity: 0.9;
         }
-
         .project-btn {
             opacity: 1;
         }
@@ -57,7 +52,6 @@
     width: 100%;
     z-index: 1;
     @include flex(center, row)
-    
 }
 
 .project-btn {
@@ -74,7 +68,6 @@
     .project-items-container {
         flex-direction: row;
     }
-
     .project-item {
         width: 40%;
         margin: 1.5rem;

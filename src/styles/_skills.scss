@@ -1,6 +1,4 @@
 .skills-container {
-    // @include border(red);
-    // height: 70vh;
     width: 100vw;
     padding: 2rem 0;
     background: linear-gradient(to left, $primary-color, $secondary-color);
@@ -8,7 +6,6 @@
 }
 
 .skills-map {
-    // @include border(yellowgreen);
     @include flex(center, row);
     flex-wrap: wrap;
     width: 80%;

@@ -12,15 +12,6 @@
     background-position: center;
     color: white;
     @include flex(center, column);
-
-    img {
-        // @include border(red);
-        // width: 80%;
-    }
-
-    .profile-pic{
-        // width: 30vw;
-    }
    
 }
 
@@ -35,18 +26,13 @@ word-wrap: normal;
 .social-icons {
     display: flex;
     justify-content: space-between;
-    // @include border (orange);
     @include flex (center, row);
     width: 100%;
     margin-top: 1rem;
     flex-direction: row;
     height: 30vh;
     justify-content: space-between;
-   
-   
-
     a {
-        // @include border(green);
         margin: 0 20rem;
         cursor: pointer;
     }
@@ -75,7 +61,6 @@ word-wrap: normal;
 }
 
 .section-scroll-down {
-    // @include border(red);
     position: absolute;
     top: 90vh;
     height: 70px;
