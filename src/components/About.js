@@ -9,7 +9,7 @@ const About = () => {
         <div className='about-title-box' >
 <h5 className='about-title' >"I desire only to know the truth, and to live as well as I can." -Socrates</h5>
             </div>
-            <img src={ profilePic2 } alt='profile picture' className='profile-pic-2'  />
+            <img src={ profilePic2 } alt='profile picture' className='profile-pic-2' />
             <div  className='about-text-box' >
             <p className='about-text' >I am first and foremost a husband and father, and a friend and neighbor. I am also an aspiring Full Stack Web Developer/Programmer/Software Engineer. I am a down-to-earth, conscientious person motivated to honest hard work by a sense of love and duty I feel towards my family, friends, and the rest of humanity.
 <br/>

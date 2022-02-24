@@ -17,14 +17,15 @@
 
 
 .about-section{
+  padding: 2.5vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items:center;
   padding-bottom: 5vh;
   width: 100vw;
-  height: auto;
-  background: linear-gradient(to top, #8E885F, #7B7263), url("../assets//img/intro-bg.jpg");
+  height: fit-content;
+  background: linear-gradient(to top, #8E885F, #7B7263);
 
 
   }
@@ -35,15 +36,21 @@
     justify-content: center;
     align-items: center;
     width: 50%;
+    margin: 0 auto;
+    height: fit-content;
+
 
   }
   
   .about-title{
   color: black;
+  margin: 0 auto;
+  display: flex;
   }
 .about-text-box{
   width:90%;
   word-wrap: normal;
+  
 }
 
   .about-text{
@@ -61,11 +68,12 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 .intro-container {
   box-sizing: border-box;
-  height: 100vh;
+  padding: 3vh;
+  /* height: 100vh; */
   width: 100vw;
   /* background: -webkit-gradient(linear, left top, left bottom, from(rgba(5, 102, 141, 0.7)), to(rgba(0, 168, 150, 0.7))), url("../assets//img/intro-bg.jpg"); */
   /* background: linear-gradient(to bottom, rgba(5, 102, 141, 0.7), #C6CA53), url("../assets//img/intro-bg.jpg"); */
-  background: linear-gradient(to bottom, #8E885F, #7B7263), url("../assets//img/intro-bg.jpg");
+  background: linear-gradient(to bottom, #8E885F, #7B7263);
   background-size: cover;
   background-position: center;
   color: white;
@@ -82,13 +90,14 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+          margin: 0 auto;
 }
 
 .intro-container img {
   width: auto
 }
 .profile-pic{
-height: 50%;
+ height: 50vh;
 margin-top: 1.5vh;
 }
 
@@ -118,7 +127,7 @@ margin-top: 1.5vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 1.5vh;
+  margin-top: 1.5vh auto;
 }
 
 
@@ -263,6 +272,7 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 box-sizing: border-box;
+margin: 0 auto;
 }
 
 .project-items-container {

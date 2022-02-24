@@ -9,7 +9,7 @@ const Intro = props => {
             <h1>Cameron Davis</h1>
             <h4>Software Engineer / Web Developer</h4>
             </div>
-            <img src={ profilePic } alt='profile picture' className='profile-pic' height={'300vh'}  />
+            <img src={ profilePic } alt='profile picture' className='profile-pic'   />
             <section className='social-icons'>
                 <div className='each-icon' >
                 <a href='https://github.com/CameronDavis88'><FaGithub size='2.5rem' /><h6>My GitHub</h6></a>
