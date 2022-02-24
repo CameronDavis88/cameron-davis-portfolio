@@ -13,29 +13,29 @@ import visualStudio from '../assets/img/skill-icons/visual-studio.svg';
 
 const Skills = props => {
     const skills = [
-        { name: 'React', img: react  },
-        { name: 'Node', img: node  },
-        { name: 'Javascript', img: javascript  },
-        { name: 'Redux', img: redux  },
-        { name: 'HTML', img: html  },
-        { name: 'CSS', img: css  },
-        { name: 'Git', img: git  },
-        { name: 'Github', img: github  },
-        { name: 'PostgreSQL', img: postgresql  },
-        { name: 'VS Code', img: visualStudio  },
-        { name: 'Postman', img: postman  },
+        { name: 'React', img: react },
+        { name: 'Node', img: node },
+        { name: 'Javascript', img: javascript },
+        { name: 'Redux', img: redux },
+        { name: 'HTML', img: html },
+        { name: 'CSS', img: css },
+        { name: 'Git', img: git },
+        { name: 'Github', img: github },
+        { name: 'PostgreSQL', img: postgresql },
+        { name: 'VS Code', img: visualStudio },
+        { name: 'Postman', img: postman },
     ];
 
     return (
         <section className="skills-container">
             <h3>Programming Skills</h3>
             <section className='skills-map'>
-                { skills.map((e, i) => (
+                {skills.map((e, i) => (
                     <Skill
-                    key={ i }
-                    name={ e.name }
-                    img={ e.img } />
-                    )) }
+                        key={i}
+                        name={e.name}
+                        img={e.img} />
+                ))}
             </section>
         </section>
     );

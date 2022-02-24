@@ -6,16 +6,6 @@
           box-sizing: border-box;
 }
 
-/* .profile-pic{
-  width: 20vw;
-} */
-
-/* header {
-  position: fixed;
-  display: none;
-} */
-
-
 .about-section{
   padding: 2.5vh;
   display: flex;
@@ -26,8 +16,6 @@
   width: 100vw;
   height: fit-content;
   background: linear-gradient(to top, #8E885F, #7B7263);
-
-
   }
 
   .about-title-box{
@@ -38,8 +26,6 @@
     width: 50%;
     margin: 0 auto;
     height: fit-content;
-
-
   }
   
   .about-title{
@@ -50,7 +36,6 @@
 .about-text-box{
   width:90%;
   word-wrap: normal;
-  
 }
 
   .about-text{
@@ -69,10 +54,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 .intro-container {
   box-sizing: border-box;
   padding: 3vh;
-  /* height: 100vh; */
   width: 100vw;
-  /* background: -webkit-gradient(linear, left top, left bottom, from(rgba(5, 102, 141, 0.7)), to(rgba(0, 168, 150, 0.7))), url("../assets//img/intro-bg.jpg"); */
-  /* background: linear-gradient(to bottom, rgba(5, 102, 141, 0.7), #C6CA53), url("../assets//img/intro-bg.jpg"); */
   background: linear-gradient(to bottom, #8E885F, #7B7263);
   background-size: cover;
   background-position: center;
@@ -249,7 +231,6 @@ h4{
   box-sizing: border-box;
   width: 100vw;
   padding: 2rem 0;
-  /* background: -webkit-gradient(linear, left top, right top, from(#05668D), to(#028090)); */
   background: linear-gradient(to right, #7B7263, #5F6062);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -383,8 +364,6 @@ margin: 0 auto;
   box-sizing: border-box;
   width: 100vw;
   padding: 2rem 0;
-  /* background:#555358; */
-  /* background: linear-gradient(to left, #C9DCB3, #5F6062 ); */
   background: linear-gradient(to left, #7B7263, #5F6062);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -460,10 +439,6 @@ margin: 0 auto;
   box-sizing: border-box;
   
   width: 100vw;
-  /* padding: 2rem 0; */
-  
-  /* background: -webkit-gradient(linear, left top, left bottom, from(#05668D), to(#028090)); */
-  /* background:#555358; */
   background: linear-gradient(to left, #7B7263, #5F6062 );
   /* display: -webkit-box;
   display: -ms-flexbox;
@@ -481,8 +456,6 @@ margin: 0 auto;
           display: flex;
           justify-content: center;
           align-items: center;
-        
-         
 }
 
 .contact-items {
@@ -526,9 +499,6 @@ margin: 0 auto;
     box-sizing: border-box;
     margin: 1.2rem 3rem;
     flex-direction: row;
-    /* width: 30%;
-    height: 30%; */
-
   }
   .contact-container{
     height: fit-content;
