@@ -1,5 +1,4 @@
 import profilePic from '../assets/img/source/profile-pic.jpg';
-// import { MdKeyboardArrowDown } from 'react-icons/md';
 import { FaGithub, FaLinkedin, FaFileWord } from 'react-icons/fa';
 
 const Intro = props => {
