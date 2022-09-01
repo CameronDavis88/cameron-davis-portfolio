@@ -13,7 +13,7 @@ const About = () => {
       </div>
       <img src={profilePic2} alt='profile picture' className='profile-pic-2' />
       <div className='about-text-box' >
-        <p className='about-text' >I am first and foremost a husband and father, and a friend and neighbor. I am also an aspiring Full Stack Web Developer/Programmer/Software Engineer. I am a down-to-earth, conscientious person motivated to honest hard work by a sense of love and duty I feel towards my family, friends, and the rest of humanity.
+        <p className='about-text' >I am first and foremost a husband and father, and a friend and neighbor. I am also a Full Stack Web Developer/Programmer/Software Engineer. I am a down-to-earth, conscientious person motivated to honest hard work by a sense of love and duty I feel towards my family, friends, and the rest of humanity.
           <br />
           <br />
           I got my bachelor's degree at Brigham Young University - Idaho majoring in Biology and minoring in Chemistry. I also later attended the Devmountain Web Development boot camp learning the basic skills and technologies for full-stack web applications.

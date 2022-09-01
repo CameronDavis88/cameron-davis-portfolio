@@ -11,6 +11,7 @@ import postgresql from '../assets/img/skill-icons/postgresql.svg';
 import postman from '../assets/img/skill-icons/postman.svg';
 import visualStudio from '../assets/img/skill-icons/visual-studio.svg';
 
+
 const Skills = props => {
     const skills = [
         { name: 'React', img: react },

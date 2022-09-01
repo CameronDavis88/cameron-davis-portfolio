@@ -1,4 +1,4 @@
-import { MdEmail, MdPhoneIphone, MdLocationCity } from 'react-icons/md';
+import { MdEmail, MdPhoneIphone, MdLocationCity, MdWork } from 'react-icons/md';
 
 const Contact = props => {
     return (
@@ -16,7 +16,12 @@ const Contact = props => {
                 </section>
                 <section className='contact-item'>
                     <div>
-                    <h5><MdLocationCity />Location</h5>Provo, UT
+                    <h5><MdLocationCity />Location</h5>Logan, UT
+                    </div>
+                </section>
+                <section className='contact-item'>
+                    <div>
+                    <h5><MdLoMdWork />Work</h5>Journal Technologies
                     </div>
                 </section>
             </section>
