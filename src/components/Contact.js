@@ -21,7 +21,7 @@ const Contact = props => {
                 </section>
                 <section className='contact-item'>
                     <div>
-                    <h5><MdLoMdWork />Work</h5>Journal Technologies
+                    <h5><MdWork />Work</h5>Journal Technologies
                     </div>
                 </section>
             </section>
